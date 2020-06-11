@@ -1,0 +1,36 @@
+<html>
+<script type="text/javascript">
+                         
+
+    function oblicz()
+
+        {
+        var a = document.getElementById('a').value;
+        var b = document.getElementById('b').value;
+        
+        {
+           
+            document.getElementById('1').value = parseInt(a) + parseInt(b);
+            document.getElementById('2').value = parseInt(a) - parseInt(b);
+            document.getElementById('3').value = parseInt(a) * parseInt(b);
+         
+        }
+        
+        }
+                    
+               
+</script>
+       
+          <br><input id="a"  type="text" title="podaja" placeholder="Podaj a:"></br>
+          <br><input id="b"  type="text" title="Liczba" placeholder="Podaj b:"></br>            
+                     
+                          
+
+         </br><input type="submit" onclick="return oblicz()"> <br> <br> <br> <br>
+    
+         Dodawanie:<input id="1" type="text"/></center>
+         Odejmowanie:<input id="2" type="text"/></center>
+         Mnozenie:<input id="3" type="text"/></center>
+     
+</html>
+
